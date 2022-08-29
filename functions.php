@@ -7,6 +7,7 @@ function enqueue_parent_styles(){
 
     if(is_page('mailchimp')){
         wp_enqueue_style( 'main-css', get_stylesheet_directory_uri(). '/css/style.css', array(), '1.0.0' );
+        wp_enqueue_style( 'bootstrap-cdn', "https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css", '1.0.0' );
         wp_enqueue_script( 'jquery-main', get_stylesheet_directory_uri() .'/js/jquery.min.js',array(),'1.0.0', true );
         wp_enqueue_script( 'jquery-validate', get_stylesheet_directory_uri() .'/js/jquery.validate.min.js',array(),'1.0.0', true );
         wp_enqueue_script( 'main-js', get_stylesheet_directory_uri() .'/js/main.js',array(),'1.0.0', true );
