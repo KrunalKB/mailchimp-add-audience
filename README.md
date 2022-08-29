@@ -10,6 +10,7 @@
 1. Wordpress
 2. Ajax
 3. jQuery
+4. Bootstrap
 
 # Find about API Reference in below link:
 >https://mailchimp.com/developer/marketing/api
