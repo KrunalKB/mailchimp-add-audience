@@ -35,8 +35,8 @@ function get_user_data(){
         $message = $_POST['message'];
 
         // API credentials
-        $list_id   = "48851390ca";
-        $authtoken = "e325576866dfee97b6b1fca810550a31-us18";
+        $list_id   = "LIST_ID";
+        $authtoken = "API_KEY";
 
         // The data to send to the API
         $userData = array(
